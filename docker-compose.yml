@@ -10,6 +10,7 @@ services:
       - mynetwork
 
   fastapi-app:
+    image: "amina444/venv-fastapi-app:latest"
     container_name: "fastapi_app"
     ports:
       - "8000:8000"
